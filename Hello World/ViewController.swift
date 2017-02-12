@@ -12,6 +12,7 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var Background: UIImageView!
     
+    @IBOutlet weak var OtherImg: UIImageView!
     @IBOutlet weak var Titleimage: UIImageView!
     
     @IBOutlet weak var WelcomeBtn: UIButton!
@@ -30,12 +31,14 @@ class ViewController: UIViewController {
     @IBAction func WelcomeBtnPressed(_ sender: Any) {
         Titleimage.isHidden=false
         Background.isHidden=false
+        OtherImg.isHidden=false
         
     }
     
     @IBAction func WelomeBtnReleased(_ sender: Any) {
         Titleimage.isHidden=true
         Background.isHidden=true
-        }
+        OtherImg.isHidden=true
+    }
 }
 
