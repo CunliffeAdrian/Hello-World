@@ -41,7 +41,7 @@
                                     <action selector="WelomeBtnReleased:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uf9-DU-uva"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="pMi-qI-UAx">
+                            <imageView hidden="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="bg" translatesAutoresizingMaskIntoConstraints="NO" id="pMi-qI-UAx">
                                 <rect key="frame" x="67" y="433" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
@@ -50,6 +50,7 @@
                     </view>
                     <connections>
                         <outlet property="Background" destination="wti-D6-8Xi" id="lF9-q5-wM3"/>
+                        <outlet property="OtherImg" destination="pMi-qI-UAx" id="fLL-lp-dfY"/>
                         <outlet property="Titleimage" destination="YgW-9C-eou" id="YLK-yx-Wxy"/>
                     </connections>
                 </viewController>
